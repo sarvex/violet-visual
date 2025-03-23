@@ -25,7 +25,7 @@ dependencies:
     version: 4.0.3(typescript@5.8.2)
   date-fns:
     specifier: ^3.0.0
-    version: 3.0.0
+    version: 3.6.0
   tailwindcss:
     specifier: ^3.0.24
     version: 3.3.3
@@ -1665,8 +1665,8 @@ packages:
     engines: {node: '>=4'}
     hasBin: true
 
-  /date-fns@3.0.0:
-    resolution: {integrity: sha512-xjDz3rNN9jp+Lh3P/4MeY4E5HkaRnEnrJCcrdRZnKdn42gJlIe6hwrrwVXePRwVR2kh1UcMnz00erYBnHF8PFA==}
+  /date-fns@3.6.0:
+    resolution: {integrity: sha512-fRHTG8g/Gif+kSh50gaGEdToemgfj74aRX3swtiouboip5JDLAyDE9F11nHMIcvOaXeOC6D7SpNhi7uFyB7Uww==}
     dev: false
 
   /debug@2.6.9:
