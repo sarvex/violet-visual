@@ -19,7 +19,7 @@ dependencies:
     version: 3.3.0
   '@astrojs/tailwind':
     specifier: ^6.0.0
-    version: 6.0.2(astro@5.5.6)(tailwindcss@4.1.2)
+    version: 6.0.2(astro@5.5.6)(tailwindcss@4.1.11)
   astro:
     specifier: ^5.0.0
     version: 5.5.6(typescript@5.8.3)
@@ -28,12 +28,12 @@ dependencies:
     version: 4.1.0
   tailwindcss:
     specifier: ^4.0.0
-    version: 4.1.2
+    version: 4.1.11
 
 devDependencies:
   '@tailwindcss/typography':
     specifier: ^0.5.10
-    version: 0.5.16(tailwindcss@4.1.2)
+    version: 0.5.16(tailwindcss@4.1.11)
   '@typescript-eslint/parser':
     specifier: ^8.0.0
     version: 8.29.0(eslint@9.30.0)(typescript@5.8.3)
@@ -144,7 +144,7 @@ packages:
       zod: 3.24.2
     dev: false
 
-  /@astrojs/tailwind@6.0.2(astro@5.5.6)(tailwindcss@4.1.2):
+  /@astrojs/tailwind@6.0.2(astro@5.5.6)(tailwindcss@4.1.11):
     resolution: {integrity: sha512-j3mhLNeugZq6A8dMNXVarUa8K6X9AW+QHU9u3lKNrPLMHhOQ0S7VeWhHwEeJFpEK1BTKEUY1U78VQv2gN6hNGg==}
     peerDependencies:
       astro: ^3.0.0 || ^4.0.0 || ^5.0.0
@@ -154,7 +154,7 @@ packages:
       autoprefixer: 10.4.21(postcss@8.5.3)
       postcss: 8.5.3
       postcss-load-config: 4.0.2(postcss@8.5.3)
-      tailwindcss: 4.1.2
+      tailwindcss: 4.1.11
     transitivePeerDependencies:
       - ts-node
     dev: false
@@ -1025,7 +1025,7 @@ packages:
     resolution: {integrity: sha512-83yeghZ2xxin3Nj8z1NMd/NCuca+gsYXswywDy5bHvwlWL8tpTQmzGeUuHd9FC3E/SBEMvzJRwWEOz5gGes9Qg==}
     dev: false
 
-  /@tailwindcss/typography@0.5.16(tailwindcss@4.1.2):
+  /@tailwindcss/typography@0.5.16(tailwindcss@4.1.11):
     resolution: {integrity: sha512-0wDLwCVF5V3x3b1SGXPCDcdsbDHMBe+lkFzBRaHeLvNi+nrrnZ1lA18u+OTWO8iSWU2GxUOCvlXtDuqftc1oiA==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders || >=4.0.0-alpha.20 || >=4.0.0-beta.1'
@@ -1034,7 +1034,7 @@ packages:
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       postcss-selector-parser: 6.0.10
-      tailwindcss: 4.1.2
+      tailwindcss: 4.1.11
     dev: true
 
   /@types/debug@4.1.12:
@@ -3802,8 +3802,8 @@ packages:
       tslib: 2.8.1
     dev: true
 
-  /tailwindcss@4.1.2:
-    resolution: {integrity: sha512-VCsK+fitIbQF7JlxXaibFhxrPq4E2hDcG8apzHUdWFMCQWD8uLdlHg4iSkZ53cgLCCcZ+FZK7vG8VjvLcnBgKw==}
+  /tailwindcss@4.1.11:
+    resolution: {integrity: sha512-2E9TBm6MDD/xKYe+dvJZAmg3yxIEDNRc0jwlNyDg/4Fil2QcSLjFKGVff0lAf1jjeaArlG/M75Ey/EYr/OJtBA==}
 
   /throttles@1.0.1:
     resolution: {integrity: sha512-fab7Xg+zELr9KOv4fkaBoe/b3L0GMGLd0IBSCn16GoE/Qx6/OfCr1eGNyEcDU2pUA79qQfZ8kPQWlRuok4YwTw==}
